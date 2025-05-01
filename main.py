@@ -48,7 +48,7 @@ ageNet = cv2.dnn.readNet(ageModel, ageProto)
 genderNet = cv2.dnn.readNet(genderModel, genderProto)
 
 # Read input image
-image_path = "C:/Users/user/Downloads/photo-1627639679638-8485316a4b21.jpg"
+image_path = r"C:\Users\user\Downloads\pexels-photo-1239291.jpeg"
 frame = cv2.imread(image_path)
 
 # Check if the image was successfully loaded
